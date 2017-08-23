@@ -14,6 +14,10 @@
 		39FCBC541F4D417B00D0AC04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39FCBC521F4D417B00D0AC04 /* LaunchScreen.storyboard */; };
 		39FCBC5F1F4D417B00D0AC04 /* HierarchyTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FCBC5E1F4D417B00D0AC04 /* HierarchyTableViewTests.swift */; };
 		39FCBC6A1F4D417B00D0AC04 /* HierarchyTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FCBC691F4D417B00D0AC04 /* HierarchyTableViewUITests.swift */; };
+		39FCBC781F4D421500D0AC04 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FCBC771F4D421500D0AC04 /* TableViewController.swift */; };
+		5B07DD89AF1E5A7F21A39E20 /* Pods_HierarchyTableViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAC2B8E3E9B752521BDE271 /* Pods_HierarchyTableViewTests.framework */; };
+		791334D885074CE78F10F258 /* Pods_HierarchyTableViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524CBAEA49EE728ADEAB35AE /* Pods_HierarchyTableViewUITests.framework */; };
+		D779345F157A1BEB8B13751D /* Pods_HierarchyTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F000CB1F7A34DAA97C3716 /* Pods_HierarchyTableView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21F000CB1F7A34DAA97C3716 /* Pods_HierarchyTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HierarchyTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3274DFA0951A90CB1449AFA4 /* Pods-HierarchyTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HierarchyTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HierarchyTableView/Pods-HierarchyTableView.debug.xcconfig"; sourceTree = "<group>"; };
 		39FCBC461F4D417B00D0AC04 /* HierarchyTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HierarchyTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39FCBC491F4D417B00D0AC04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39FCBC4B1F4D417B00D0AC04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,14 @@
 		39FCBC651F4D417B00D0AC04 /* HierarchyTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HierarchyTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39FCBC691F4D417B00D0AC04 /* HierarchyTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchyTableViewUITests.swift; sourceTree = "<group>"; };
 		39FCBC6B1F4D417B00D0AC04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39FCBC771F4D421500D0AC04 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		51217A9E54CF7FEBE26186C7 /* Pods-HierarchyTableViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HierarchyTableViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HierarchyTableViewTests/Pods-HierarchyTableViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		524CBAEA49EE728ADEAB35AE /* Pods_HierarchyTableViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HierarchyTableViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		571B5C37FAE77BC4A1439B8F /* Pods-HierarchyTableViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HierarchyTableViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HierarchyTableViewUITests/Pods-HierarchyTableViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FAC2B8E3E9B752521BDE271 /* Pods_HierarchyTableViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HierarchyTableViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8001F27F72633CD565CE319E /* Pods-HierarchyTableViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HierarchyTableViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HierarchyTableViewTests/Pods-HierarchyTableViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		872A02EB1E33AF253E784A52 /* Pods-HierarchyTableViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HierarchyTableViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HierarchyTableViewUITests/Pods-HierarchyTableViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F317F68C0E050A4B69C324CF /* Pods-HierarchyTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HierarchyTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-HierarchyTableView/Pods-HierarchyTableView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D779345F157A1BEB8B13751D /* Pods_HierarchyTableView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B07DD89AF1E5A7F21A39E20 /* Pods_HierarchyTableViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				791334D885074CE78F10F258 /* Pods_HierarchyTableViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34BFFFC4EA885A19FE65CBC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21F000CB1F7A34DAA97C3716 /* Pods_HierarchyTableView.framework */,
+				7FAC2B8E3E9B752521BDE271 /* Pods_HierarchyTableViewTests.framework */,
+				524CBAEA49EE728ADEAB35AE /* Pods_HierarchyTableViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		39FCBC3D1F4D417B00D0AC04 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				39FCBC5D1F4D417B00D0AC04 /* HierarchyTableViewTests */,
 				39FCBC681F4D417B00D0AC04 /* HierarchyTableViewUITests */,
 				39FCBC471F4D417B00D0AC04 /* Products */,
+				4087F86F35F22863D89644C7 /* Pods */,
+				34BFFFC4EA885A19FE65CBC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +128,7 @@
 			children = (
 				39FCBC491F4D417B00D0AC04 /* AppDelegate.swift */,
 				39FCBC4B1F4D417B00D0AC04 /* ViewController.swift */,
+				39FCBC771F4D421500D0AC04 /* TableViewController.swift */,
 				39FCBC4D1F4D417B00D0AC04 /* Main.storyboard */,
 				39FCBC501F4D417B00D0AC04 /* Assets.xcassets */,
 				39FCBC521F4D417B00D0AC04 /* LaunchScreen.storyboard */,
@@ -125,6 +155,19 @@
 			path = HierarchyTableViewUITests;
 			sourceTree = "<group>";
 		};
+		4087F86F35F22863D89644C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3274DFA0951A90CB1449AFA4 /* Pods-HierarchyTableView.debug.xcconfig */,
+				F317F68C0E050A4B69C324CF /* Pods-HierarchyTableView.release.xcconfig */,
+				8001F27F72633CD565CE319E /* Pods-HierarchyTableViewTests.debug.xcconfig */,
+				51217A9E54CF7FEBE26186C7 /* Pods-HierarchyTableViewTests.release.xcconfig */,
+				571B5C37FAE77BC4A1439B8F /* Pods-HierarchyTableViewUITests.debug.xcconfig */,
+				872A02EB1E33AF253E784A52 /* Pods-HierarchyTableViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39FCBC6E1F4D417B00D0AC04 /* Build configuration list for PBXNativeTarget "HierarchyTableView" */;
 			buildPhases = (
+				794368290B0D8C7EC01F66F5 /* [CP] Check Pods Manifest.lock */,
 				39FCBC421F4D417B00D0AC04 /* Sources */,
 				39FCBC431F4D417B00D0AC04 /* Frameworks */,
 				39FCBC441F4D417B00D0AC04 /* Resources */,
+				0E93FFC32A66BC9F5C57FC94 /* [CP] Embed Pods Frameworks */,
+				A7A834B5757F44C9EC9FD445 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39FCBC711F4D417B00D0AC04 /* Build configuration list for PBXNativeTarget "HierarchyTableViewTests" */;
 			buildPhases = (
+				8F85D009C610B25A5DD7D4CE /* [CP] Check Pods Manifest.lock */,
 				39FCBC561F4D417B00D0AC04 /* Sources */,
 				39FCBC571F4D417B00D0AC04 /* Frameworks */,
 				39FCBC581F4D417B00D0AC04 /* Resources */,
+				631FB5BC18CFC46E488528F1 /* [CP] Embed Pods Frameworks */,
+				6286EA80C0116AF50945735B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39FCBC741F4D417B00D0AC04 /* Build configuration list for PBXNativeTarget "HierarchyTableViewUITests" */;
 			buildPhases = (
+				2FD39F3AA63C56672AAAA0E8 /* [CP] Check Pods Manifest.lock */,
 				39FCBC611F4D417B00D0AC04 /* Sources */,
 				39FCBC621F4D417B00D0AC04 /* Frameworks */,
 				39FCBC631F4D417B00D0AC04 /* Resources */,
+				9E19AA128B417CFDDB9663F3 /* [CP] Embed Pods Frameworks */,
+				6CA620892267D0E0D1CD1821 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +306,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E93FFC32A66BC9F5C57FC94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HierarchyTableView/Pods-HierarchyTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FD39F3AA63C56672AAAA0E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6286EA80C0116AF50945735B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HierarchyTableViewTests/Pods-HierarchyTableViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		631FB5BC18CFC46E488528F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HierarchyTableViewTests/Pods-HierarchyTableViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CA620892267D0E0D1CD1821 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HierarchyTableViewUITests/Pods-HierarchyTableViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		794368290B0D8C7EC01F66F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F85D009C610B25A5DD7D4CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E19AA128B417CFDDB9663F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HierarchyTableViewUITests/Pods-HierarchyTableViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7A834B5757F44C9EC9FD445 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HierarchyTableView/Pods-HierarchyTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		39FCBC421F4D417B00D0AC04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				39FCBC4C1F4D417B00D0AC04 /* ViewController.swift in Sources */,
+				39FCBC781F4D421500D0AC04 /* TableViewController.swift in Sources */,
 				39FCBC4A1F4D417B00D0AC04 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +603,7 @@
 		};
 		39FCBC6F1F4D417B00D0AC04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3274DFA0951A90CB1449AFA4 /* Pods-HierarchyTableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HierarchyTableView/Info.plist;
@@ -424,6 +616,7 @@
 		};
 		39FCBC701F4D417B00D0AC04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F317F68C0E050A4B69C324CF /* Pods-HierarchyTableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HierarchyTableView/Info.plist;
@@ -436,6 +629,7 @@
 		};
 		39FCBC721F4D417B00D0AC04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8001F27F72633CD565CE319E /* Pods-HierarchyTableViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +644,7 @@
 		};
 		39FCBC731F4D417B00D0AC04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51217A9E54CF7FEBE26186C7 /* Pods-HierarchyTableViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +659,7 @@
 		};
 		39FCBC751F4D417B00D0AC04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 571B5C37FAE77BC4A1439B8F /* Pods-HierarchyTableViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = HierarchyTableViewUITests/Info.plist;
@@ -477,6 +673,7 @@
 		};
 		39FCBC761F4D417B00D0AC04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872A02EB1E33AF253E784A52 /* Pods-HierarchyTableViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = HierarchyTableViewUITests/Info.plist;
